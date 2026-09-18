@@ -135,4 +135,4 @@ sudo systemctl enable sddm
 
 systemctl --user daemon-reexec
 
-echo "Dependencies are installed. Please follow the post-installation steps to complete the setup"
+echo "------ Dependencies are installed. Please follow the post-installation steps to complete the setup ------"
