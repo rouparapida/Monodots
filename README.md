@@ -13,7 +13,7 @@ sudo pacman -S --needed git base-devel
 2 - Clone o repositório:
 
 ```bash
-git clone https://github.com/Arch-Pitt/Monodots.git 
+git clone https://github.com/rouparapida/Monodots.git 
 cd Monodots
 ```
 

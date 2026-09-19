@@ -17,7 +17,6 @@ hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 
-hl.bind(mainMod .. " + H", hl.dsp.exec_cmd("killall waybar || waybar"))
 hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd(" kitty -e sh ~/.scripts/wallpicker.sh"))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd("sh ~/.scripts/powermenu.sh"))
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("sh ~/.scripts/profileselector.sh"))
