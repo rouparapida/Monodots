@@ -22,7 +22,6 @@
         "network",
         "pulseaudio",
         "backlight",
-        "custom/notify",
         "battery",
         "custom/power",
         "custom/separator",
@@ -128,15 +127,10 @@
         "on-click": "sh .scripts/powermenu.sh"
     },
 
-    "custom/notify": {
-        "format": "",
-        "tooltip": false,
-        "on-click": "swaync-client -t"
-    },
-
     "custom/icon": {
         "format": "",
-        "tooltip": false
+        "tooltip": false,
+        "on-click": "swaync-client -t"
     },
 
     "custom/separator": {

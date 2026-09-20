@@ -8,12 +8,14 @@
   "layer-shell": true,
   "layer-shell-cover-screen": true,
 
-  "positionX": "right",
-  "positionY": "top",
-  "fit-to-screen": true,
+  "positionX": "left",
+  "positionY": "bottom",
+  "control-center-positionX": "left",
+  "control-center-positionY": "top",
   "control-center-width": 380,
   "control-center-height": 550,
   "notification-window-width": 380,
+  "fit-to-screen": true,
 
   "control-center-margin-top": 8,
   "control-center-margin-bottom": 8,
