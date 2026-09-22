@@ -17,8 +17,6 @@ window {
     height: 45%; 
     border-radius: 8px 8px 0px 0px; 
     border: 1px solid;
-    border-color: rgba(255, 255, 255, 0.08);
-    background-color: rgba(10, 10, 10, 1);
     padding: 14px;
 }
 
