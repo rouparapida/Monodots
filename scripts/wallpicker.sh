@@ -10,12 +10,11 @@ fi
 
 ROFI_THEME="
 window {
-    location: south;
+    location: center;
     anchor: center; 
-    y-offset: 24px;
     width: 70%; 
     height: 45%; 
-    border-radius: 8px 8px 0px 0px; 
+    border-radius: 8px; 
     border: 1px solid;
     padding: 14px;
 }

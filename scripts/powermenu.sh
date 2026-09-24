@@ -9,9 +9,9 @@ ROFI_THEME="
 window {
     anchor: center; 
     location: east;
-    x-offset: 2px;
+    x-offset: -4px;
     width: 110px;
-    border-radius: 8px 0px 0px 8px;
+    border-radius: 8px;
     border: 1px solid;
     padding: 12px;
 }
