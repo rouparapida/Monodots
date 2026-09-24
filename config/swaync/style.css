@@ -16,7 +16,7 @@ scale:focus slider {
   background: transparent;
   border: none;
   border-radius: 4px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.1);
   margin-right: 16px;
   margin-top: 12px;
   min-height: 24px;
@@ -43,7 +43,7 @@ blankwindow,
 
 .control-center {
   background: rgba(10, 10, 10, 1);
-  border: 1px solid rgba(26, 26, 26, 1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 8px; 
 }
 
@@ -131,7 +131,7 @@ blankwindow,
 
 .notification-row .notification-background .notification {
   background: rgba(10, 10, 10, 1);
-  border: 1px solid rgba(26, 26, 26, 1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 0;
   transition: background 0.15s ease-in-out;

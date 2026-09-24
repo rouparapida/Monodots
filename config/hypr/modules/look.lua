@@ -6,7 +6,7 @@ hl.config({
         border_size = 1,
 
         col = {
-            active_border = "rgba(44444444)",
+            active_border = "rgba(ffffff1a)",
             inactive_border = "rgba(44444422)",
         },
 
@@ -89,5 +89,3 @@ hl.config({
         fullscreen_on_one_column = true,
     },
 })
-
-
