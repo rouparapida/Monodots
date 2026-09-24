@@ -17,9 +17,9 @@
   "notification-window-width": 380,
   "fit-to-screen": true,
 
-  "control-center-margin-top": 8,
-  "control-center-margin-bottom": 8,
-  "control-center-margin-left": 8,
+  "control-center-margin-top": 4,
+  "control-center-margin-bottom": 4,
+  "control-center-margin-left": 4,
   "control-center-margin-right": 0,
 
   "transition-time": 200,
