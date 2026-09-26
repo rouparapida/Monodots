@@ -2,7 +2,7 @@
 hl.config({
     general = {
         gaps_in = 2,
-        gaps_out = 4,
+        gaps_out = 6,
         border_size = 1,
 
         col = {
@@ -24,7 +24,7 @@ hl.config({
 
         shadow = {
             enabled = false,
-            range = 30,
+            range = 10,
             render_power = 2,
             color = 0x1a000000,
         },
