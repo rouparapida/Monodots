@@ -16,8 +16,8 @@ window {
     y-offset: 1px;
     width: 55%;
     border-radius: 8px; 
-    background-color: rgba(10, 10, 10, 1); 
-    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(0, 0, 0, 1);
+    border-color: rgba(255, 255, 255, 0.12);
     border: 1px solid;
     padding: 14px;
 }
@@ -33,8 +33,8 @@ mainbox {
 inputbar {
     height: 100px;
     spacing: 4px;
-    background-color: rgba(255, 255, 255, 0.05);
-    text-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.06);
+    text-color: rgba(240, 240, 240, 1);
     border-radius: 8px;
     children: ["prompt", "entry"];
     padding: 7px 18px;
@@ -42,15 +42,15 @@ inputbar {
 
 prompt {
     background-color: transparent;
-    text-color: #ffffff;
+    text-color: rgba(240, 240, 240, 1);
     vertical-align: 0.5; 
 }
 
 entry {
     background-color: transparent;
-    text-color: #ffffff;
+    text-color: rgba(240, 240, 240, 1);
     placeholder: "Search apps...";
-    placeholder-color: rgba(255, 255, 255, 0.4); 
+    placeholder-color: rgba(240, 240, 240, 0.4); 
     vertical-align: 0.5;
 }
 
@@ -72,7 +72,7 @@ element {
     border: 0px solid;
     border-radius: 4px;
     background-color: transparent;
-    text-color: rgba(255, 255, 255, 0.6);
+    text-color: rgba(240, 240, 240, 0.6);
 }
 
 element-icon {
@@ -90,13 +90,13 @@ element-text {
 element normal.normal,
 element alternate.normal {
     background-color: transparent;
-    text-color: rgba(255, 255, 255, 0.7);
+    text-color: rgba(240, 240, 240, 0.75);
 }
 
 element selected.normal,
 element selected.active {
-    background-color: rgba(255, 255, 255, 1);
-    text-color: #000000;
+    background-color: rgba(240, 240, 240, 1);
+    text-color: rgba(0, 0, 0, 1);
 }
 
 message {
